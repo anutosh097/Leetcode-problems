@@ -9,6 +9,12 @@ https://leetcode.com/problems/successful-pairs-of-spells-and-potions/
  * @param {number} success
  * @return {number[]}
  */
+
+/*
+Time complexity:- O(Nlog(N)) -> implemented binary search intuitively to reduce time complexity otherwise brute force
+would have given O(N^2) TC for two nested loops
+Space complexity:- 
+*/
  var successfulPairs = function(spells, potions, success) {
     const result = [] 
     potions=potions.sort((a,b)=>a-b)
