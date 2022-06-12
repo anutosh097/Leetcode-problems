@@ -17,12 +17,14 @@ Space complexity:-
 */
  var successfulPairs = function(spells, potions, success) {
     const result = [] 
-    potions=potions.sort((a,b)=>a-b)
+    potions=potions.sort((a,b)=>a-b) //sort the array for making it ready for binary search
   
     for(let i=0;i<spells.length;i++){ 
         let leftI = 0
         let rightI = potions.length-1
+        //implement binary search to reduce time complexity
         while(leftI<=rightI){ 
+            //edge case for any product of spells[i] times last element of potions array as potions already sorted
             if((spells[i]*potions[potions.length-1]) < success){
                 result.push(0)
                 break;
