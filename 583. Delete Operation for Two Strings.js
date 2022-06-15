@@ -1,5 +1,7 @@
 /*
 https://leetcode.com/problems/delete-operation-for-two-strings/
+
+https://www.youtube.com/watch?v=NnD96abizww&t=371s
 */
 
 
