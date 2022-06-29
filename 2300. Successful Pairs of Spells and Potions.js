@@ -13,7 +13,7 @@ https://leetcode.com/problems/successful-pairs-of-spells-and-potions/
 /*
 Time complexity:- O(Nlog(N)) -> implemented binary search intuitively to reduce time complexity otherwise brute force
 would have given O(N^2) TC for two nested loops
-Space complexity:- 
+Space complexity:- O(N)
 */
  var successfulPairs = function(spells, potions, success) {
     const result = [] 
