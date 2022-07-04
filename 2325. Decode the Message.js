@@ -5,7 +5,7 @@ https://leetcode.com/problems/decode-the-message/
 
 var decodeMessage = function(key, message) {
     let lowercaseStart = 97
-    let lowercaseEnd = 122
+    //let lowercaseEnd = 122
     let i=0
     let storeCipher = {}
     let keyLength = key.length
