@@ -34,6 +34,11 @@ public class PermutationOfAinBWayTwo {
              * as here we don't just slide the window with two pointers but we also maintain the frequency
              * array for both the strings and just compare them at each step to check if they are permutations
              * of each other.
+             * 
+             * We don't compare the substrings directly which would have taken O(N) time at each step but here
+             * we are just comparing two frequency arrays of fixed size 26 (for lowercase letters) which takes O(1) time.
+             * Also, we update the frequency array for string B in O(1) time as we slide the window by removing the count
+             * of the character that goes out of the window and adding the count of the character that comes into the window.
              */
             int k = Alen;
             while(k < Blen){
