@@ -30,6 +30,11 @@ public class PermutationOfAinBWayTwo {
             int counter = 0;
 
             /**
+             * ==================================================================================================================
+             * Hashing + Sliding Window Approach
+             * ==================================================================================================================
+             * 
+             * 
              * The below is the execution of sliding window technique with boosters and optimizations
              * as here we don't just slide the window with two pointers but we also maintain the frequency
              * array for both the strings and just compare them at each step to check if they are permutations
