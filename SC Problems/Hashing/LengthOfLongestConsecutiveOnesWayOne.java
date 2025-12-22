@@ -1,6 +1,9 @@
-public class LengthOfLongestConsecutiveOnes {
+public class LengthOfLongestConsecutiveOnesWayOne {
     public static void main(String[] args){
-       String A = "111011101";
+    //    String A = "111011101";
+    //    String A = "000";
+    //    String A = "111";
+       String A = "1101101011";
        System.out.println(solve(A));
     }
 
